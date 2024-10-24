@@ -28,7 +28,19 @@ def winning_numbers(user_list, winning_list):
     """
 
     # Function implementation here ...
-
+    matches = len(set(user_list) & set(winning_list))
+    if matches == 3:
+        prize = "first"
+    elif matches == 2:
+        prize = "second"
+    elif matches == 1:
+        prize = "third"
+    else:
+        prize = "no"
     # Print the result
     print(f"Congratulations, you won {prize} prize!")
     return prize
+
+user_list = [3, 5, 10]
+winning_list = [3, 5, 17]
+prize = winning_numbers(user_list, winning_list)

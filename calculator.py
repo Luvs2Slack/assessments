@@ -81,7 +81,7 @@ def calculator(num1, num2, operator):
 ## Run the example
 A = calculator(4, 5, "*")  # Output: The result is: 20
 print(A)
-B = calculator(10, 0, "/")  # Output: The result is: 5.0
+B = calculator(10, 2, "/")  # Output: The result is: 5.0
 print(B)
 C = calculator(7, 7, ">=")  # Output: The comparison result is: True
 print(C)

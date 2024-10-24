@@ -23,5 +23,5 @@ def max_of_three(num1, num2, num3):
 
 # # You are out of the body function where you can test your code.
 # Example usage:
-maximum = max_of_three(10, 35, 30)
+maximum = max_of_three(40, 20, 30)
 print(maximum, "is the maximum")
